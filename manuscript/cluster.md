@@ -1,6 +1,6 @@
 # 打赏
 
-![支付宝](images/alipay.jpg)
+![支付宝](images/alipay.png)
 ![微信](images/we.png) 
 
 # 理解NodeJS群集模块
