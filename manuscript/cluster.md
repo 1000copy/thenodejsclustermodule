@@ -1,7 +1,7 @@
 # 打赏
 
-![支付宝](alipay.jpg)
-![微信](we.png) 
+![支付宝](images/alipay.jpg)
+![微信](images/we.png) 
 
 # 理解NodeJS群集模块
 
@@ -383,5 +383,5 @@ app.listen（）函数的作用是使用核心http模块启动一个新的HTTP�
 
 ## 广告
 
-![](ad.png)
+![](images/ad.png)
 [去看看](http://www.ituring.com.cn/book/1956)
