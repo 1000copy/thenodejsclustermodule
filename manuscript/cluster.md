@@ -1,7 +1,3 @@
-# 打赏
-
-![支付宝](images/alipay.png)
-![微信](images/we.png) 
 
 # 理解NodeJS群集模块
 
@@ -247,6 +243,10 @@ masterProcess函数分为两部分。 在第一个循环中，我们分配的工
 通过创建IPC通道并允许使用process.send（）发送消息，简化主服务器和工作服务器之间的通信，
 允许工作进程共享同一个端口。这样做使得主进程成为接收请求并在工作者之间多路复用的进程。
 
+## 广告
+
+![](images/ad.png)
+[去看看](http://www.ituring.com.cn/book/1956)
 
 # 使用PM2管理群集
 
@@ -381,7 +381,7 @@ app.listen（）函数的作用是使用核心http模块启动一个新的HTTP�
 
 使用process.exit（）终止节点进程在使用HTTP服务器时是不够的，因为它会突然终止所有通信，我们需要先停止接受新连接，释放我们的应用程序使用的任何资源，最后停止整个进程。
 
-## 广告
+# 打赏
 
-![](images/ad.png)
-[去看看](http://www.ituring.com.cn/book/1956)
+![支付宝](images/alipay.png)
+![微信](images/we.png) 
